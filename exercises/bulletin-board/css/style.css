@@ -17,7 +17,7 @@
         'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
         Arial, sans-serif;
     text-align: center;
-    
+    box-shadow: 4px 4px 4px rgb(14, 14, 14); 
 }
 #trash {
     font-weight: bold;
@@ -29,4 +29,7 @@
 }
 #green-post-it {
     background-color: aquamarine;
+}
+.div {
+    align-items: center;
 }
