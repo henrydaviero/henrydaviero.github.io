@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph{
+    color: blue;
+    background-color: goldenrod;
+    font-style: italic;
+    text-align:center
+}
+#second-paragraph{
+    color: #b665ba;
+    background-color: rgb(2, 14, 104);
+    font-size: 24px;
+    text-decoration: underline;
+}
+#bold-paragraph{
+    font-weight: bold;
+    background-color: #d6fa7b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#centered-paragraph{
+    text-align: center;
+}
+#span1{
+    color:blue;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive; 
+}
+#span2{
+    font-style: italic;
+    text-decoration: line-through;
+}
+#span3{
+    background-color: darksalmon;
+}
+#span4{
+    text-align: right;
+    background-color: chartreuse;
+}
