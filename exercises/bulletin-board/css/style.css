@@ -6,7 +6,7 @@
 
     Good luck, and have fun!
 */
-.post-it{
+.post-it {
     background-color: gold;
     display: inline-block;
     width: 200px;
@@ -19,14 +19,14 @@
     text-align: center;
     
 }
-#trash{
+#trash {
     font-weight: bold;
     font-size: larger;
     background-color: pink;
 }
-#peewee{
+#peewee {
     width: 150px;
 }
-#green-post-it{
+#green-post-it {
     background-color: aquamarine;
 }
