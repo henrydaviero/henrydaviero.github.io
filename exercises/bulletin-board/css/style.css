@@ -1,0 +1,32 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it{
+    background-color: gold;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family:
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+        Arial, sans-serif;
+    text-align: center;
+    
+}
+#trash{
+    font-weight: bold;
+    font-size: larger;
+    background-color: pink;
+}
+#peewee{
+    width: 150px;
+}
+#green-post-it{
+    background-color: aquamarine;
+}
