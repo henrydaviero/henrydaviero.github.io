@@ -36,3 +36,11 @@
 li{
     font-weight:800;
 }
+.push-pin {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px #000000AA;
+    display: inline-block;
+}
