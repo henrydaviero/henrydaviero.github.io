@@ -17,6 +17,25 @@ body {
 }
 p a {
     text-decoration: none;
-    color: coral;
+    color: rgb(24, 203, 238);
     font-style: italic;
+}
+p.warning {
+    color: crimson;
+
+}
+p.warning a {
+    color:orange;
+}
+ul {
+    color:green;
+}
+ul a {
+    color:lime;
+}
+ul p a {
+    color: purple;
+}
+ul div a {
+    color:lightblue;
 }
