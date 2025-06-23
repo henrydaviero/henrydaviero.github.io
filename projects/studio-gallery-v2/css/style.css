@@ -10,13 +10,15 @@
     width: 100px;
     margin: 20px;
     padding: 2px;
+    background-color: aliceblue;
     display:inline-block;
-    border:inset 8px rgb(21, 251, 140)
+    border:inset 8px rgb(59, 113, 87)
 }
 #dog-hat {
     width: 100px;
     margin:4px;
-    padding: 2px;
+    padding: 4px;
+    background-color: antiquewhite;
     display: inline-block;
     box-shadow: 4px 4px 4px #000000;
 
@@ -26,8 +28,9 @@
     width: 100px;
     margin: 10px;
     padding: 2px;
+    background-color: rgb(203, 4, 73);
     display:inline-block;
-    border: 4px solid;
+    border: 8px black ridge;
 }
 #text-poster {
     width: 100px;
