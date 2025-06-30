@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/car-image.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: top center;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px
+}
+#hero-1 h1 {
+    color:rgb(135, 0, 0);
+    font-size: 90px;
+    position: absolute;
+    left: 70%
+}
+#hero-1 h3 {
+    color:rgb(135, 0, 0);
+    font-size: 36px;
+    position: absolute;
+    left: 75%;
+    top: 66%;
+}
+#hero-1 a {
+    color:rgb(255, 255, 255);
+    padding:24px;
+    background-color: rgb(12, 30, 189);
+    border-radius: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    position: absolute;
+    left: 80%;
+    bottom: 14%;
+}
+#hero-2 {
+    background-image: url("../images/house-smog.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#hero-2 h1 {
+    position: absolute;
+    font-size: 72px;
+    right:10%;
+    bottom:50%
+}
+#hero-2 h3 {
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+}
+#hero-2 a {
+    font-size:
+}
