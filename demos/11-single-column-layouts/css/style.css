@@ -6,3 +6,14 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.single-column {
+    /* background-color: lightgreen; */
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
