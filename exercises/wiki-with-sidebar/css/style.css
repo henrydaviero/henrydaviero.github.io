@@ -10,7 +10,7 @@ body {
     display: flex;
 }
 #side-bar {
-    flex:1;
+    flex: 1;
     background-color: antiquewhite;
     max-width: 300px;
     padding: 24px;
@@ -21,11 +21,21 @@ body {
     padding: 64px;
 }
 h1 {
-    border-bottom: solid 4px #333333;
+    border-bottom: dashed 4px #711010;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 h2 {
     border-bottom: solid 2px #333333;
-    padding: 4px;
+    padding: 16px 0px 4px 0px;
+}
+h3 {
+    color: #808080;
+    font-size: 20px;
+}
+
+p {
+    padding-bottom: 16px;
 }
 #contents {
     background-color: cadetblue;
@@ -47,10 +57,11 @@ li a {
 }
 .word-flex {
     flex: 4;
+    min-width: 400px;
 }
 .image-flex {
     flex: 1;
-    padding:24px;
+    padding: 24px;
 }
 .image-flex img {
     padding-top: 32px;
