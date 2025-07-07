@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Quicksand:wght@300..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,11 +8,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #464546;
 }
 /* grid container */
 #grid-layout {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-areas:
         "header header"
         "sidebar main";
@@ -51,17 +55,19 @@ body {
     padding: 12px 0px;
     margin:0px;
     list-style-type: none;
-    border-bottom:1px solid #aaaaaa;
+    border-bottom:2px solid #c40297;
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: #ffffff;
     display: block;
     padding: 12px;
+    font-family: 'Creepster', system-ui;
+    font-size: 20px;
 }
 /* pseudo-class */
 #sidebar ul a:hover {
-    background-color: #eeeeee;
+    background-color: #c40297;
     border-radius: 12px;
 }
 .metube-item {
@@ -81,10 +87,11 @@ body {
 }
 .metube-item h4 {
     margin: 8px;
+    font-family: 'Quicksand', system-ui;
 }
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: #ffffff;
     display: block;
 }
 .metube-item h4 a:hover {
@@ -96,4 +103,11 @@ body {
 }
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+#sidebar li i {
+    padding: 0px 12px;
+    color: #f5f5f5;
+}
+.metube-item .video-details .views-and-post {
+    color: #f5f5f5;
 }
