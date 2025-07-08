@@ -43,6 +43,7 @@ body {
     padding: 12px 8px;
     border-radius: 8px;
 }
+
 #header #me {
     color: #111111;
 }
@@ -123,4 +124,11 @@ body {
     border-radius: 8px;
     aspect-ratio: 16 / 9;
     border: 2px solid white;
+}
+#sidebar i {
+    width: 30px;
+    margin-right: 20px;
+}
+#header a:hover {
+    opacity: 80%;
 }
