@@ -26,7 +26,7 @@ body {
 #search {
     flex-basis: 100%;
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 24px;
 
 }
 #header a {
@@ -100,7 +100,7 @@ body {
 }
 
 #search i {
-    margin: 4px 12px;
+    margin: 8px 12px;
 }
 #condition {
     display: flex;
