@@ -39,7 +39,7 @@ body {
     border-radius: 16px;
 }
 #sidebar-photos {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
@@ -56,7 +56,7 @@ body {
 #main-photo {
     /* background-color: rgb(27, 211, 70); */
     grid-area: main;
-    margin:16px;
+    margin: 16px;
 }
 #main-photo img {
     width: 100%;
@@ -69,7 +69,7 @@ body {
 #seller-info h2 {
     padding-bottom: 8px;
     border-bottom: 2px solid rgb(120, 120, 120);
-    margin:0px;
+    margin: 0px;
 
 }
 #seller-info p {
@@ -86,7 +86,7 @@ body {
 }
 .seller-details p {
     padding: 0px 4px 0px 0px;
-    margin: 0px,
+    margin: 0px;
 }
 .seller-details i {
     margin: 0px;
@@ -112,7 +112,7 @@ body {
     font-weight: 800;
 }
 #condition i {
-    padding-left: 12px;;
+    padding-left: 12px;
 }
 .buttons-1 {
     border: 2px solid rgb(35, 65, 236);
@@ -134,9 +134,7 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 12px 0px;
     border-color:  #2341ec;
-    color:#2341ec;
-
-    
+    color: #2341ec;
 }
 .buttons-2 h3 {
     margin: 0px;
@@ -147,11 +145,11 @@ body {
 }
 .buttons-1:hover {
     background-color: white;
-    color:#2341ec
+    color: #2341ec;
 }
 .buttons-2:hover {
     color: white;
-    background-color:#2341ec
+    background-color: #2341ec;
 }
 #logo:hover {
     opacity: 60%;
