@@ -103,6 +103,10 @@ body {
 #search i {
     margin: 8px 12px;
 }
+#price h1 {
+    margin-bottom: 0px;
+    font-size: 28px;
+}
 #condition {
     display: flex;
     align-items: center;
