@@ -1,0 +1,36 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    width:360px;
+    background-color: rgb(248, 236, 9);
+    padding: 16px;
+    margin: 16px;
+    border: 18px solid gold;
+    border-radius: 16px;
+}
+
+.card-style-3 img {
+    width: 100%;
+}
+.pokemon-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.pokemon-header h2{
+    font-size: 24px;
+    margin: 0px;
+
+}
+
+.card-style-3 .details {
+    display: flex;
+    background-color: goldenrod;
+}
