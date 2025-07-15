@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    /* begin basic hero setup */
+    background-image: url(../images/lizard.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
