@@ -15,5 +15,81 @@ body {
     /* end basic hero setup */
     display: flex;
     justify-content: flex-start;
-    align-items: center
+    align-items: center;
+    /* must be applied to container  */
+    position:realtive;
+    margin-bottom: 100px;
+}
+#hero-1 h1 {
+    font-size: 120px;
+    color: aliceblue;
+    /* must be applied to the thing we want to move  */
+    position: absolute; /*ghost property value */
+    left: 20%;
+    /* top: 40%; */
+}
+#hero-2 {
+    background-image: url(../images/lonely-ocean.jpg);
+    height: 100vh;background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-2 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+}
+#hero-2 h4 {
+    font-size: 24px;
+    position:  absolute;
+    right: 20%;
+    bottom: 47%;
+}
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+#hero-3 {
+    background-image: url(../images/orange-wildflowers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero-4 {
+    background-image: url("../images/stars-on-velvet.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url(../images/emerald-seas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
