@@ -6,3 +6,15 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#hero-1 {
+    background-image: url(../images/ian-schneider-jk8rarn6lmw-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+#hero-1 .hero-content {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
