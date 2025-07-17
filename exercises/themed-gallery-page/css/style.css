@@ -25,7 +25,7 @@ body {
 #hero #hero-content h2 {
     font-size: 48px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0px;
 }
 #hero #hero-content h4 {
