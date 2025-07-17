@@ -45,6 +45,7 @@ body {
     flex-wrap: wrap;
     border: 10px solid #333333;
     gap: 16px;
+    padding: 24px;
 }
 .bmx-gallery img {
     height:250px;
