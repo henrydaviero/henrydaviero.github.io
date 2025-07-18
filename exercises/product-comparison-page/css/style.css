@@ -5,23 +5,59 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(254, 241, 203);
+
 }
 .single-column-layout {
-    max-width: 800px;
+    max-width: 900px;
     margin: 48px auto;
     text-align: center;
-    background-color: aqua;
+    padding:48px;
 } 
 .single-column-layout h1 {
     margin: 48px;
 }
+#pic-text {
+    display: flex;
+    padding: 48px;
+}
+#pic-text img {
+    width: 350px;
+    object-fit: cover;
+}
+#pic-text .flex-text {
+    text-align: left;
+    margin: 32px;;
+}
+#pic-text .flex-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#pic-text .flex-text h3 {
+   margin-top: 16px;
+
+}
+
+#pic-text .flex-text a {
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 24px;
+}
+
 #comp-chart {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #comp-chart div{
     padding:24px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     border-bottom: 4px solid #333333;
 
