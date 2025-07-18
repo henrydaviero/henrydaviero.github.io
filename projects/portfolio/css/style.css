@@ -68,7 +68,7 @@ p a {
     color: #fcf9f9;
     font-weight: bold;
     font-size: 32px;
-    background-color: #f3882366;
+    /* background-color: #f3882366; */
 }
 #single-column-layout #photo-gallery {
     display: flex;
