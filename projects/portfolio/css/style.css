@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sriracha&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Sriracha", cursive;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+}
+#hero {
+    background-image: url("../images/urban-hi-res-3q76.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 12px;
+}
+#hero .hero-content {
+    position: absolute;
+    top: 30%;
+    right:8%;
+    border-left: 12px solid #f38823;
+    padding-left: 18px;
+    padding-bottom: 32px;
+
+}
+#hero .hero-content h1 {
+    font-size: 60px;
+    color: #fcf9f9;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+#hero .hero-content a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+    background-color:  #fcf9f9;
+    padding: 12px;
+    margin: 8px;;
+}
+.layout-background {
+    background-color: #333333;
+}
+#single-column-layout {
+    width: 60%;
+    min-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
+#single-column-layout  h2{
+    margin: 0px;
+    padding: 24px;
+    color: #fcf9f9;
+}
+#single-column-layout #photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    background-color: #fcf9f9;
+    padding: 12px;
+
+}
+#single-column-layout #photo-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}

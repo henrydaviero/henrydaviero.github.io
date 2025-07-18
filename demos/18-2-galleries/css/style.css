@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Limelight&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,17 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+h1 {
+    font-family: "Limelight", sans-serif;
+}
+h3 {
+    font-family: "Chocolate Classical Sans", sans-serif;
+} 
+
+
+
+
 #layout {
     max-width: 800px;
     margin: 48px auto;
