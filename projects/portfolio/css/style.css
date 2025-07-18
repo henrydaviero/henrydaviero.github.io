@@ -21,7 +21,7 @@ p a {
     background-size: cover;
     background-position: center center;
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
 }
 #hero .hero-content {
     position: absolute;
@@ -29,7 +29,7 @@ p a {
     right:8%;
     border-left: 12px solid #f38823;
     padding-left: 18px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 
 }
 #hero .hero-content h1 {
