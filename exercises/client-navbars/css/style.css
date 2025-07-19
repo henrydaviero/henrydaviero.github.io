@@ -1,0 +1,60 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+</style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar-1 {
+    display: flex;
+    background:linear-gradient(-20deg, darkgoldenrod, brown);
+    padding:24px;
+    justify-content: space-between;
+}
+#navbar-1 #logo-1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: auto;
+    color: antiquewhite;
+}
+#navbar-1 a {
+    margin: 0px 16px;
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+}
+
+#navbar-2 {
+    font-family: 'Indie Flower';
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(3, 94, 3);
+    display: flex;
+    padding: 24px;
+}
+#navbar-2 #logo-2 {
+    letter-spacing: 2;
+    font-weight: 2000;
+    color: white;
+    margin-left: 48px;
+    margin-right: auto;
+    align-items: center;
+}
+#navbar-2 a {
+    margin: 0px 12px 0px 12px;
+    text-decoration: none;
+    color: white;
+    margin-right: 24px;
+}
+
+#navbar-2 #sub-but {
+    background-color: black;
+    padding: 4px 16px;
+    border-radius: 32px;
+    margin-right: 48px;
+}
