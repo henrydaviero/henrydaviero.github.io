@@ -1,6 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
-</style>
+
 * {
     box-sizing: border-box;
 }
@@ -13,12 +12,15 @@ body {
     display: flex;
     background:linear-gradient(-20deg, darkgoldenrod, brown);
     padding:24px;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 64px;
+    position:sticky;
+    top: 0px;
 }
 #navbar-1 #logo-1 {
     font-size: 18px;
     font-weight: bold;
-    margin-right: auto;
+    /* margin-right: auto; */
     color: antiquewhite;
 }
 #navbar-1 a {
@@ -35,6 +37,8 @@ body {
     background-color: rgb(3, 94, 3);
     display: flex;
     padding: 24px;
+    position: sticky;
+    top: 0px;
 }
 #navbar-2 #logo-2 {
     letter-spacing: 2;
@@ -43,6 +47,7 @@ body {
     margin-left: 48px;
     margin-right: auto;
     align-items: center;
+    color: gold;
 }
 #navbar-2 a {
     margin: 0px 12px 0px 12px;
@@ -56,4 +61,43 @@ body {
     padding: 4px 16px;
     border-radius: 32px;
     margin-right: 48px;
+    transition-duration: 0.4s;
+    display: block;
 }
+#navbar-2 #sub-but:hover {
+    background-color: white;
+    color: rgb(3, 94, 3);
+}
+#navbar-3 #top-nav {
+    background-color:rgb(78, 3, 87);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding:8px;
+    color: #333333;
+    color: gold;
+}
+
+#navbar-3 #mid-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 48px;
+    background-color: orange;
+}
+
+#navbar-3 #mid-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #242424;
+    padding: 0px 8px;
+}
+#navbar-3 #mid-nav a:hover {
+    color: #6f009e;
+}
+#navbar-3 #bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 4px 24px;
+}
+    
