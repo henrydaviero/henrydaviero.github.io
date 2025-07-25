@@ -81,8 +81,9 @@ body {
 #navbar-3 #mid-nav {
     display: flex;
     justify-content: space-around;
-    padding: 4px 48px;
+    padding: 8px 48px;
     background-color: orange;
+    border-bottom: solid 2px  #6f009e;
 }
 
 #navbar-3 #mid-nav a {
@@ -93,11 +94,22 @@ body {
 }
 #navbar-3 #mid-nav a:hover {
     color: #6f009e;
+    transition: 0.1s;
 }
 #navbar-3 #bottom-nav {
     display: flex;
     justify-content: space-between;
     background-color: orange;
-    padding: 4px 24px;
+    padding: 8px 48px;
 }
+#navbar-3 #bottom-nav a {
+   text-decoration: none;
+   color: #333333;
+   transition: 0.1s;
+}
+#navbar-3 #bottom-nav a:hover{
+    text-decoration: none;
+    color: white;
+ }
+     
     
