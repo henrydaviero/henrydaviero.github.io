@@ -111,5 +111,9 @@ body {
     text-decoration: none;
     color: white;
  }
+ #navbar-3 {
+    position: sticky;
+    top: 0px;
+ }
      
     
