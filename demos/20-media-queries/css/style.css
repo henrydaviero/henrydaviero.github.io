@@ -126,8 +126,16 @@ body {
     .image-container {
         height: 300px;
     }
-}
 
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "txt1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 txt2";
+    }
+}
 /* MOBILE BREAKPOINT ***********************************/
 @media screen and (max-width: 450px) {
     body {
@@ -150,5 +158,21 @@ body {
     }
     .content-container {
         text-align: center;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "txt1"
+            "img1"
+            "img2"
+            "img3"
+            "img4" 
+            "txt2";
+    }
+    .grid p {
+        height:300px;
+        d
+        text-align: center;
+        flex:1; 
     }
 }
