@@ -115,7 +115,7 @@ body {
 /* TABLET BREAKPOINT ***********************************/
 @media screen and (max-width: 740px) and (min-width: 450px) {
     body {
-        background-color: skyblue;
+        /* background-color: skyblue; */
     }
     .content-container h1 {
         font-size: 28px;
@@ -139,7 +139,7 @@ body {
 /* MOBILE BREAKPOINT ***********************************/
 @media screen and (max-width: 450px) {
     body {
-        background-color: firebrick;
+        /* background-color: firebrick; */
     }
     #nav {
         flex-direction: column;
@@ -171,7 +171,8 @@ body {
     }
     .grid p {
         height:300px;
-        text-align: center;
-        flex:1; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
