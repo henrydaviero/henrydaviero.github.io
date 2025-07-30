@@ -6,6 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
 #navbar {
     background: linear-gradient(to bottom, #109cb8, #0e5b96);
     display: flex;
@@ -18,6 +19,7 @@ body {
     color: white;
     padding: 24px;
 }
+
 #navbar #logo {
     margin-right: auto;
     font-weight: bold;
@@ -25,6 +27,7 @@ body {
     padding-top: 13px;
     padding-bottom: 12px;
 }
+
 #navbar a:hover{
     background: linear-gradient(to top, #109cb8, #0e5b96);
 }
@@ -32,6 +35,7 @@ body {
 .dropdown-container {
     position: relative;
 }
+
 .dropdown-menu {
     position: absolute;
     opacity: 0;
@@ -40,6 +44,7 @@ body {
         opacity 0.25s,
         visibilty 0.25s;
 }
+
 .dropdown-menu a {
      background-color: darkblue;
      width: 100%;
@@ -53,4 +58,8 @@ body {
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
 }
