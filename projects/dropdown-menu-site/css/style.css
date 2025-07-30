@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: center center;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin-bottom: 60px;
@@ -25,21 +25,49 @@ body {
     position: absolute;
     left: 20%;
     top: 20%;
-    font-size: 64px;
+    font-size: 72px;
     
 }
 #hero-1 #greeting h2 {
     font-family: londrina;
-    margin: 0px 8px 0px 8px;
+    margin: 0px 0px 0px 8px;
     font-family: "Londrina Solid", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-shadow: 4px 4px 4px #00000088;
 }
 
-/**************************
-ANIMAL1 PAGE
-*********************/
+/**********************************************
+NAVBAR  **************************************/
+#navbar {
+    background-color: rgb(5, 5, 181);
+    display: flex;
+    align-items: center;
+    /* padding: 16px; */
+}
+#navbar #logo img{
+    width: 150px;
+    
+}
+#navbar #logo {
+    margin-left: 24px;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 12px 48px 12px 0px;
+    color: white;
+    text-decoration: none;
+    font-family: Lexend;
+    font-weight: 500;
+
+}
+
+/*************************************
+ANIMAL PAGES LAYOUT
+**************************************/
 .center-column-layout {
     width: 60%;
     min-width: 500px;
