@@ -37,7 +37,7 @@ body {
     opacity: 0;
     visibility: hidden;
     transition:
-        opacity: 0.25s,
+        opacity 0.25s,
         visibilty 0.25s;
 }
 .dropdown-menu a {
