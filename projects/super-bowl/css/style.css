@@ -26,8 +26,8 @@ h1 {
     color: rgb(252, 255, 253);
     text-align: center;
     margin-top: 24px;
-    text-shadow: -6px 4px 2px#2c1401,
-        4px 4px 4px#fc8423;
+    text-shadow: -6px 4px 2px#2c1401,-5px -2px 6px#f4e409,
+        4px 4px 4px#f8d406;
 
     
 }
@@ -93,12 +93,33 @@ h2 {
     color: #f4eded;
     background-color: #f00e0e;
 }
-@media screen and (max-width:1025px)
+@media screen and (max-width: 1025px) {
+
 .card-container {
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 21px;
-    /* gap: 24px; */
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    border: 8px solid white;
+    padding-top: 20px;
+    background-color: #00000033;
+
+}
+h1 {
+    font-size: 32px;
+}
+.img-cont {
+    width:150px;
+    height: 150px;
+}
+.button-container {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 24px;
+    text-align: center;
+    margin: 32px 0px 32px;
+}
+h3 {
+    font-size: 18px;
+}
 }
