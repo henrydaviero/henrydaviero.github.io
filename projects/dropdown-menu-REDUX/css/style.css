@@ -75,7 +75,7 @@ NAVBAR  **************************************/
  HERO **********************************/
  #hero-1 {
     background-image: url(../images/dog-hero-best.jpg);
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display:flex;
@@ -225,9 +225,9 @@ body {
 
 @media screen and (max-width: 739px) {
 #featured-pups-container {
-display: flex;
+/* display: flex; */
 flex-direction: column;
-width: 50vw;
+width: 75vw;
 margin: 0px auto;
 align-items: center;
 justify-content: center;
@@ -238,22 +238,23 @@ gap: 4px;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    min-width: 150px;
+    height:300px;
+    min-width: 500px;
     align-items: center;
-    background-color: darkorange;
+    background-color: darkorange(0, 38, 255);
     padding: 16px;
     border-radius: 24px;
     border: 4px solid #333333;
     transition:
         transform 0.2s;
 }
+.cards img {
+    height: 100px;
+    flex:1;
+}
 .sec-heading h3 {
-    font-family: "Londrina Solid", sans-serif;
     font-size: 24px;
-    text-align: center;
     margin: 12px 8px;
-    color: #1c0181;
 }
 .cards a {
     display: inline-block;
@@ -288,6 +289,4 @@ gap: 4px;
     /* margin-bottom: 16px; */
     z-index: -1;
 }
-
-
 }
