@@ -75,11 +75,11 @@ NAVBAR  **************************************/
  HERO **********************************/
  #hero-1 {
     background-image: url(../images/dog-hero-best.jpg);
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     background-position: center center;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     /* margin-bottom: 16px; */
@@ -93,7 +93,6 @@ NAVBAR  **************************************/
     left: 20%;
     top: 20%;
     font-size: 72px;
-    
 }
 #hero-1 #greeting h2 {
     /* font-family: londrina; */
@@ -106,10 +105,7 @@ NAVBAR  **************************************/
 
 /*************************************************
  CARDS SECTION *************************************/
-.section {
-    background-color: #fcedda;
-    padding: 16px;
-}
+
 #featured-pups-container {
     display: flex;
     /* flex-direction: column; */
@@ -120,6 +116,7 @@ NAVBAR  **************************************/
     border-top: 6px solid #1c0181;
     /* justify-content: space-around; */
     gap: 24px;
+    padding-bottom: 48px;
 }
 
 .sec-heading h3 {
@@ -225,27 +222,23 @@ body {
     font-size: 14px;
     max-width: 60%;
 }
-.section-fill {
-    display: flex;
-    background-color: #fcedda;
-    height: 100vh;
-}
 
-@media screen and (max-width: 739px) 
+@media screen and (max-width: 739px) {
 #featured-pups-container {
 display: flex;
 flex-direction: column;
-width: 80vw;
+width: 50vw;
 margin: 0px auto;
+align-items: center;
 justify-content: center;
 border-top: 6px solid #1c0181;
-gap: 24px;
+gap: 4px;
 }
 .cards {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 500px;
     min-width: 150px;
     align-items: center;
     background-color: darkorange;
@@ -255,4 +248,46 @@ gap: 24px;
     transition:
         transform 0.2s;
 }
+.sec-heading h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 12px 8px;
+    color: #1c0181;
+}
+.cards a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 12px 24px;
+    background-color:  #1c0181;
+    border-radius: 24px;
+    margin-top: 16px;
+}
+#hero-1 #greeting {
+    display: flex;
+    flex-direction: column;
+    color: rgb(248, 248, 248);
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: 48px;   
+}
+#hero-1 {
+    background-image: url(../images/dog-hero-best.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    /* margin-bottom: 16px; */
+    z-index: -1;
+}
 
+
+}
