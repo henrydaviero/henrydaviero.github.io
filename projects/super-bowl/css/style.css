@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Rubik+Dirt&display=swap');* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(to top, #026c06, black);
+    min-height: 100vh;
+}
+.single-column-layout {
+    max-width: 66%;
+    margin: 0px auto;
+}
+#headspace {
+    height: 32px;
+}
+#host h3 {
+    padding-top: ;
+}
+h1 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 48px;
+    color: rgb(252, 255, 253);
+    text-align: center;
+    margin-top: 24px;
+    text-shadow: -6px 4px 2px#2c1401,
+        4px 4px 4px#fc8423;
+
+    
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Rethink Sans", sans-serif;
+    margin: 4px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-family: "Rethink Sans", sans-serif;
+}
+#call {
+    margin:0px
+}
+#phone {
+    letter-spacing: 2px;
+    margin: 04px 0px 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    /* gap: 24px; */
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-cont {
+    width: 300px;
+    height: 300px;
+    border: 8px solid #f4eded;
+}
+.img-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0px 32px;
+}
+.button-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 239, 17);
+    padding: 8px 24px;
+    font-weight: 800;
+    border: 4px solid rgb(0, 56, 22);
+}
+.button-container a:hover {
+    color: #f4eded;
+    background-color: #080400;
+}
+.button-container a:active {
+    color: #f4eded;
+    background-color: #f00e0e;
+}
+@media screen and (max-width:1025px)
+.card-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    /* gap: 24px; */
+}
